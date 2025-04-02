@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Sales Management Dashboard</title>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Dark theme */
+        body {
+            background-image: url(RedParticles.gif); /* Dark background */
+            background-size: cover; /* Ensures the GIF covers the entire header */
+            background-repeat: no-repeat; /* Prevents the GIF from repeating */
+            background-position: center; /* Centers the GIF within the header */
+            color: #e0e0e0; /* Light text for contrast */
+            font-family: Calibri, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .pdf-container {
+            width: 100%;
+            max-width: 1000px; /* Maximum width for better readability */
+            height: 120vh;
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0 0 90px rgb(255, 19, 19); /* Soft shadow */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 4px;
+        }
+
+        /* Github Button styling */
+        .github-button {
+            background-color: #ffffff;
+            color: #121212;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-bottom: 40px;
+        }
+
+        .github-button:hover {
+            background-color: #fac4c4;
+            box-shadow: 0 0 30px rgba(255, 19, 19, 0.8); /* Soft shadow */
+            color: #121212;
+        }
+    </style>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+
+</head>
+<body>
+    <h2>Project Name: Sales Management Dashboard</h2>
+    
+    <!-- GitHub Button -->
+    <a href="https://github.com/TheAnthonyW/Sales-Management-Dashboard" target="_blank" class="github-button">Click Here to View Source Code on GitHub</a>
+    
+    <div class="pdf-container">
+        <embed src="Project Documents/Project Sales Management Dashboard.pdf" type="application/pdf" class="pdf-viewer">
+    </div>
+</body>
+</html>
